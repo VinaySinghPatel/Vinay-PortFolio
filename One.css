@@ -173,17 +173,17 @@ margin-right: 100px;
 }
 
 
-@media screen and (max-width : 770px) {
+@media screen and (max-width : 500px) {
     #photo{
-        height: 80px;
-        width: 80px;
+        height: 30px;
+        width: 30px;
         display: flex;
 flex-direction:column;
         flex-wrap: wrap;
     }
     #photo1{
-        height: 80px;
-        width:80px;
+        height: 30px;
+        width:30px;
         display: flex;
         flex-wrap: wrap;
         margin-left: 0px;
@@ -380,4 +380,140 @@ font-size: 20px;
     font-size: 40px;
     text-shadow: 0px 0px 10px #696969;
 }
-#
+#ImagesOfProject{
+    display: flex;
+    flex-direction: row;
+}
+#Second-Khand1{
+    border-radius: 0px 0px 3px;
+    box-shadow: black 0px 0px 6px;
+    margin-top: 0.625em; /* Converted from 10px to 0.625em */
+    margin-bottom: 0.625em; /* Converted from 10px to 0.625em */
+    background-image: url("Background\ Image\ Black\ PortFOlio.webp");
+    height: 80vh; /* Converted from 60px to 60vh */
+    background-size: cover;
+}
+#ImagesOfProject{
+    margin-left: 15em;
+ margin-top: 2em;
+}
+#ImagesOfProject1{
+    margin-top: 2em;
+    margin-left: 15em;
+}
+#ChatImage{
+margin-right: 3em;
+box-shadow: 0px 0px 10px yellow;
+border-radius: 2em;
+}
+#Air{
+margin-left: 3em;
+box-shadow: 0px 0px 10px yellow;
+border-radius: 2em;
+}
+#GameNum{
+    margin-right: 3em;
+    box-shadow: 0px 0px 10px yellow;
+border-radius: 2em;
+}
+#passgen{
+    margin-left: 3em;
+    box-shadow: 0px 0px 10px yellow;
+border-radius: 2em;
+}
+.content{
+    color: white;
+    width: 340px;
+    height: 200px;
+   position:absolute;
+   background: rgb(0,0,0,0.6);
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   opacity: 0;
+   transition: 0.4s;
+}
+
+.content:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.content h2{
+    color: yellow;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.content2{
+    color: white;
+    width: 340px;
+    height: 200px;
+   position:absolute;
+   background: rgb(0,0,0,0.6);
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   opacity: 0;
+   transition: 0.4s;
+   margin-left: 27.2em;
+}
+.content2:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.content2 h2{
+    color: yellow;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+.content3{
+  margin-top: 0em;
+    color: white;
+    width: 340px;
+    height: 200px;
+   position:absolute;
+   background: rgb(0,0,0,0.6);
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   opacity: 0;
+   transition: 0.4s;
+   font-weight: bolder;
+   font-size: 1em;
+}
+.content3:hover{
+    opacity: 1;
+}
+.content3 h2{
+    color: yellow;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.content4{
+    color: white;
+    width: 340px;
+    height: 200px;
+   position:absolute;
+   background: rgb(0,0,0,0.6);
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   opacity: 0;
+   transition: 0.4s;
+   margin-left: 27.2em;
+  }
+  .content4:hover{
+      opacity: 1;
+  }
+  .content4 h2{
+      color: yellow;
+      font-weight: bolder;
+      font-size: 2em;
+  }
